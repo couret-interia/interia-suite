@@ -1,0 +1,13 @@
+name: Bug report
+description: Report a problem with InterIA Suite docs or coordination
+title: "[Bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: Problem
+      description: Describe clearly what went wrong.
+      placeholder: Clear description of the bug.
+    validations:
+      required: true

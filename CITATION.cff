@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use InterIA Suite, please cite this work."
+title: "InterIA Suite"
+authors:
+  - family-names: "Couret"
+	given-names: "Alexandre"
+  - family-names: "Ingles"
+	given-names: "Thomas"
+version: "0.1.0"
+date-released: "2026-02-27"
+repository-code: "https://github.com/couret-interia/interia-suite"
+keywords:
+  - InterIA
+  - Quality
+  - Cosmos Map
+  - Multiverse
+  - LaTeX Galaxy
+  - BibTeX Galaxy
+  - AI-assisted refactoring

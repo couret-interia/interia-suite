@@ -1,0 +1,13 @@
+name: Feature request
+description: Suggest an improvement for InterIA Suite
+title: "[Feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: Proposal
+      description: What would you like to see improved or added?
+      placeholder: Clear description of the feature.
+    validations:
+      required: true

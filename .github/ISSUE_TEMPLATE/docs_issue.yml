@@ -1,0 +1,13 @@
+name: Documentation Issue
+description: Report a problem or gap in the InterIA Suite docs
+title: "[Docs] "
+labels: ["documentation"]
+body:
+  - type: textarea
+    id: docs
+    attributes:
+      label: What needs to be improved?
+      description: Point to the page/section and describe the issue.
+      placeholder: e.g. missing example, outdated link, unclear wording…
+    validations:
+      required: true

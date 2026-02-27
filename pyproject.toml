@@ -1,0 +1,42 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "interia-suite"
+version = "0.1.0"
+description = "InterIA Suite – unified portal for style, quality, cosmos maps and multiverse analysis."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+
+authors = [
+  { name = "Alexandre Couret" },
+  { name = "Thomas Ingles" },
+  { name = "InterIA" }
+]
+
+keywords = [
+  "InterIA",
+  "quality",
+  "LaTeX",
+  "BibTeX",
+  "cosmos-map",
+  "multiverse",
+  "AI-assisted refactoring"
+]
+
+# Pour l'instant, on ne déclare pas de dépendances Python strictes.
+dependencies = []
+
+# Ce bloc sert surtout d'info pour PyPI/Zenodo/GitHub, pas encore d'installation d'un package Python.
+[project.urls]
+Homepage = "https://github.com/couret-interia/interia-suite"
+Repository = "https://github.com/couret-interia/interia-suite"
+Documentation = "https://github.com/couret-interia/interia-suite/tree/main/docs"
+
+[tool.setuptools]
+# À ce stade, la suite est un méta-projet : on n'installe pas de package Python.
+# Plus tard, si tu veux, on pourra y ajouter une vraie lib Python (ex. interia_suite)
+# qui expose des CLI, etc.
+packages = []
